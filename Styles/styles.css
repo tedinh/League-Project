@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body {
+  background-color: black;
+  font-family: 'Cinzel', serif;
+}
+
+.home-page-top-container nav ul {
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #FFEF80;
+    list-style: none;
+}
+
+.home-page-nav{
+    border-bottom: solid;
+    border-color: #FFEF80;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a:link {
+  color: #FFEF80;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.homeIcon {
+  width: 75px;
+  height: 75px;
+}
+
+#container-home {
+  color: #FFEF80;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: space-between;
+  justify-content: center;
+
+}
+.gameMode {
+  text-align: center;
+}
+.participants {
+  list-style: none;
+}
+
+.sumResults {
+  color: #FFEF80;
+}
+
+.text {
+  color: white;
+}
+
+.games {
+  font-size: 60px;
+  text-align: center;
+  color: #FFEF80;
+  text-decoration: underline;
+}

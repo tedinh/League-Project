@@ -1,0 +1,44 @@
+
+<br>
+
+  <div class="input-group">
+    <form ng-submit="sumSearch(summonerName)">
+    <input type="text" class="form-control" placeholder="Summoner's Name" value="" ng-model="summonerName">
+</form>
+  </div>
+
+
+<br>
+<br>
+<ul class="sum">
+  <li class='sumResults' ng-style="summit1g">
+    <h2 class='ranked'>Ranked Solo</h2>
+    <p>Total Assists: {{rankedsolo5s.totalAssists}}</p>
+    <p>Total Wins: {{rankedsolo5s.wins}}</p>
+    <p>Total Champion Kills: {{rankedsolo5s.totalChampionKills}}</p>
+    <p>Total Minion Kills: {{rankedsolo5s.totalMinionKills}}</p>
+    <p>Total Neutral Minions Killed: {{rankedsolo5s.totalNeutralMinionsKilled}}</p>
+  </li>
+    <li class='sumResults' ng-style="summit1g">
+      <h2 class='ranked'>Ranked Flex</h2>
+      <p>Total Assists: {{rankedFlexSR.totalAssists}}</p>
+      <p>Total Wins: {{rankedFlexSR.wins}}</p>
+      <p>Total Champion Kills: {{rankedFlexSR.totalChampionKills}}</p>
+      <p>Total Minion Kills: {{rankedFlexSR.totalMinionKills}}</p>
+      <p>Total Neutral Minions Killed: {{rankedFlexSR.totalNeutralMinionsKilled}}</p>
+    </li>
+    <li class='sumResults' ng-style="summit1g">
+      <h2 class='ranked'>Unranked</h2>
+      <p>Total Assists: {{unRanked.totalAssists}}</p>
+      <p>Total Wins: {{unRanked.wins}}</p>
+      <p>Total Champion Kills: {{unRanked.totalChampionKills}}</p>
+      <p>Total Minion Kills: {{unRanked.totalMinionKills}}</p>
+      <p>Total Neutral Minions Killed: {{unRanked.totalNeutralMinionsKilled}}</p>
+    </li>
+    <li class='sumResults' ng-style="summit1g">
+      <h2 class='ranked'>Aaram</h2>
+      <p>Total Assists: {{aaram.totalAssists}}</p>
+      <p>Total Wins: {{aaram.wins}}</p>
+      <p>Total Champion Kills: {{aaram.totalChampionKills}}</p>
+    </li>
+</ul>

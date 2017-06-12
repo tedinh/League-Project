@@ -1,0 +1,23 @@
+<br>
+<span class="champSearch">
+<input class="box" type="text" placeholder="Search Champion" value="" ng-model="championName">
+</span>
+<br>
+<div class="champBox">
+
+  <div class="champInChamp" ng-repeat="champs in champ | filter: championName">
+    <div class="insideChampBox">
+      <img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/{{champs.key}}.png">
+    </div>
+
+  <div class="champName">
+      {{champs.name}}
+    </div>
+    <div class="title">
+      {{champs.title}}
+    </div>
+  </div>
+
+</div>
+</div>
+<br>

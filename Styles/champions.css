@@ -1,0 +1,52 @@
+.champSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  border-radius: 30px;
+
+}
+
+.box{
+  border-radius: 30px;
+  text-align: center;
+}
+
+.champBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid;
+  border-color: #FFEF80;
+  color: #FFEF80;
+}
+
+.champInChamp{
+  padding: 10px;
+}
+.insideChampBox {
+  /*margin-right: 20px;*/
+  width: 127px;
+  border: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  overflow-y: scroll;
+}
+
+.champName {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+width: 127px;
+}
