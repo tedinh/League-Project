@@ -1,13 +1,14 @@
 <h1 class="games">Featured Games</h1>
+
+<img class="image" src="images/League home page splash.png" alt="">
+
 <ul id="container-home">
   <li ng-repeat="feature in features" class="container-home-featured">
     <h1 class="gameMode">{{feature.gameMode}}</h1>
-    <ul class="participants">
-      <li ng-repeat="participant in feature.participants">
-        <h4>{{participant}}</h4>
-      </li>
-
-    </ul>
-
+      <ul class="participants">
+        <li ng-repeat="participant in feature.participants">
+          <h4>{{participant}}</h4>
+        </li>
+      </ul>
   </li>
 </ul>

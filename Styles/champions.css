@@ -35,7 +35,6 @@
   flex-direction: row;
   justify-content: space-between;
 
-  overflow-y: scroll;
 }
 
 .champName {

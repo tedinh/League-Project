@@ -48,14 +48,22 @@ a:hover {
   flex-wrap: wrap;
   flex-direction: space-between;
   justify-content: center;
-
 }
+
+.container-home-featured {
+  background-color: black;
+}
+
 .gameMode {
   text-align: center;
+  text-decoration: underline;
 }
 .participants {
   list-style: none;
+  margin-left: 0;
+  text-align: center;
 }
+
 
 .sumResults {
   color: #FFEF80;
@@ -69,5 +77,8 @@ a:hover {
   font-size: 60px;
   text-align: center;
   color: #FFEF80;
-  text-decoration: underline;
+}
+
+.design {
+  color: white;
 }
